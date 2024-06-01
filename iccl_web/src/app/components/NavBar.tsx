@@ -6,7 +6,7 @@ import clsx from "clsx";
 const NavBar = () => {
   const [isMenueOpen, setMenu] = useState(false);
   return (
-    <nav className="bg-white border-gray-200">
+    <nav className=" bg-white border-gray-200">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
           <span className="self-center text-2xl font-semibold whitespace-nowrap">
@@ -79,11 +79,11 @@ const NavBar = () => {
         {/* sidebar mobile menu */}
         <div
           className={clsx(
-            "fixed h-full w-screen md:hidden bg-black/50 backdrop-blur-sm top-0 left-0 -translate-x-full transition-all",
-            isMenueOpen && "translate-x-0"
+            "absolute h-full w-screen md:hidden bg-black/50 backdrop-blur-sm top-0 right-0 -translate-x-full transition-all",
+            isMenueOpen && "translate-x-0 z-10"
           )}
         >
-          <section className=" text-white bg-slate-900 w-56 flex-cl absolute left-0 top-0 h-screen p-8 gap-8 z-50">
+          <section className=" text-white bg-slate-900 w-56 flex-cl absolute left-0 top-0 h-screen p-8 gap-8 scrollbar-hide">
             <img
               onClick={() => setMenu(false)}
               src="x-btn.png"
