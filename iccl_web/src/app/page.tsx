@@ -1,5 +1,5 @@
 import InfoCardComp from "./components/InfoCardComp";
-import videoPlayer from "./components/videoPlayer";
+import NewVideoPlayer from "./components/NewVideoPlayer";
 import PageHeaderComp from "./components/PageHeaderComp";
 
 export default function Home() {
@@ -148,7 +148,7 @@ export default function Home() {
         />
         <div className=" grid grid-cols-1 md:grid-cols-2 md:mx-10">
           <div className=" mt-5 mx-3 position-item-center">
-            <videoPlayer />
+            <NewVideoPlayer />
           </div>
           <div className=" text-center md:text-left md:mr-16">
             <h2 className=" text-xl font-bold mt-5">
