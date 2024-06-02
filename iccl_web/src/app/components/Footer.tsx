@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <div>
       <div className=" mb-0 my-0 mt-20 text-center">
-        <div className="mt-2 bg-gradient-to-r from-purple-800 via-pink-800 to-green-800 absilue overflow-hidden bg-cover bg-center bg-no-repeat p-12 text-center text-white justify-evenly">
-          <div className=" grid grid-cols-2 gap-7 md:grid-cols-4">
+        <div className="mt-2 bg-[#b22222] absilue overflow-hidden bg-cover bg-center bg-no-repeat p-12 text-center text-white justify-evenly">
+          <div className=" grid grid-cols-2 gap-7 md:grid-cols-4 place-items-center justify-items-center align-middle">
             <ul className=" flex flex-col gap-1 ">
               <h4 className=" font-bold">Company Info</h4>
               <li>About Us</li>
@@ -34,24 +34,38 @@ const Footer = () => {
               <li>Customers</li>
               <li>API</li>
             </ul>
+            <ul className=" flex flex-col gap-4 w-full">
+              <h4 className=" font-bold">Get In Touch</h4>
+              <li className=" flex flex-row justify-left md:justify-center">
+                <img src="call.png" className=" w-6" />{" "}
+                <p className="">(+880) 2222 80840</p>
+              </li>
+              <li className=" flex flex-row justify-left md:justify-center">
+                <img src="call.png" className=" w-6" />{" "}
+                <p className="">(+880) 2226 2720</p>
+              </li>
+              <li className=" flex flex-row justify-left md:justify-center">
+                <img src="call.png" className=" w-6" />{" "}
+                <p className="">(+880) 2228 0826</p>
+              </li>
+            </ul>
+            <ul className="hidden md:block"></ul>
+            <ul className="hidden md:block"></ul>
+
+            <ul className="flex flex-col gap-1">
+              <h4 className=" font-bold">Address</h4>
+              <li className=" flex flex-row justify-left md:justify-center">
+                <img src="location.png" className=" w-6 h-6" />{" "}
+                <p className=" text-left">
+                  House 73, Road 17a, Block-E Bonani, Dhaka-1213, BBangladesh
+                </p>
+              </li>
+              <li className=" flex flex-row justify-left md:justify-center">
+                <img src="location.png" className=" w-6 h-6" />{" "}
+                <p className=" text-left">Naojur, Kodda, Jooydebpur, Gazipur</p>
+              </li>
+            </ul>
           </div>
-          <ul className=" flex flex-col gap-4 w-full mt-5">
-            <h4 className=" font-bold">Get In Touch</h4>
-            <li className=" flex flex-row justify-left md:justify-center">
-              <img src="call.png" className=" w-6" />{" "}
-              <p className="">(480) 555-0103</p>
-            </li>
-            <li className=" flex flex-row justify-left md:justify-center">
-              <img src="location.png" className=" w-6 h-6" />{" "}
-              <p className=" text-left">
-                4517 Washington Ave. Manchester, Kentucky 39495
-              </p>
-            </li>
-            <li className=" flex flex-row justify-left md:justify-center">
-              <img src="msg.png" className=" w-6" />{" "}
-              <p>debra.holt@example.com</p>
-            </li>
-          </ul>
         </div>
         <div className=" flex flex-col justify-between px-[100px] py-3 md:flex-row place-items-center">
           <h5 className=" font-semibold text-md text-[#737373]">
