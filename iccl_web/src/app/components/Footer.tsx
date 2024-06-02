@@ -5,7 +5,7 @@ const Footer = () => {
     <div>
       <div className=" mb-0 my-0 mt-20 text-center">
         <div className="mt-2 bg-[#b22222] absilue overflow-hidden bg-cover bg-center bg-no-repeat p-12 text-center text-white justify-evenly">
-          <div className=" grid grid-cols-2 gap-7 md:grid-cols-4 place-items-center justify-items-center align-middle">
+          <div className=" grid grid-cols-1 gap-7 md:grid-cols-4 place-items-center justify-items-center align-middle">
             <ul className=" flex flex-col gap-1 ">
               <h4 className=" font-bold">Company Info</h4>
               <li>About Us</li>
@@ -34,7 +34,7 @@ const Footer = () => {
               <li>Customers</li>
               <li>API</li>
             </ul>
-            <ul className=" flex flex-col gap-4 w-full">
+            <ul className=" flex flex-col gap-4 w-full items-center">
               <h4 className=" font-bold">Get In Touch</h4>
               <li className=" flex flex-row justify-left md:justify-center">
                 <img src="call.png" className=" w-6" />{" "}
@@ -52,7 +52,7 @@ const Footer = () => {
             <ul className="hidden md:block"></ul>
             <ul className="hidden md:block"></ul>
 
-            <ul className="flex flex-col gap-1">
+            <ul className="flex flex-col gap-1 place-items-center items-center">
               <h4 className=" font-bold">Address</h4>
               <li className=" flex flex-row justify-left md:justify-center">
                 <img src="location.png" className=" w-6 h-6" />{" "}
@@ -67,8 +67,8 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className=" flex flex-col justify-between px-[100px] py-3 md:flex-row place-items-center">
-          <h5 className=" font-semibold text-md text-[#737373]">
+        <div className=" flex flex-col justify-between py-3 md:flex-row place-items-center">
+          <h5 className=" font-semibold text-sm md:text-base text-[#737373]">
             Made With Love By Biznextit All Right Reserved{" "}
           </h5>
           <div className=" flex flex-row justify-center gap-6 mt-3 place-items-center">

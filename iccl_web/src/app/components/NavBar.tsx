@@ -80,7 +80,7 @@ const NavBar = () => {
             isMenueOpen && "translate-x-0 z-10"
           )}
         >
-          <section className=" text-white bg-slate-900 w-56 flex-cl absolute left-0 top-0 h-screen p-8 gap-8 scrollbar-hide">
+          <section className=" text-white bg-[#b22222] w-56 flex-cl absolute left-0 top-0 h-screen p-8 gap-8 scrollbar-hide overflow-hidden">
             <img
               onClick={() => setMenu(false)}
               src="x-btn.png"
@@ -91,8 +91,8 @@ const NavBar = () => {
               <li>
                 <a
                   href="./"
-                  className="flex items-center p-2 text-gray-900 rounded-lg
-                  dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                  className="flex items-center p-2 rounded-lg
+                  text-white hover:bg-gray-100 group border border-gray-400"
                   aria-current="page"
                 >
                   Home
@@ -101,8 +101,8 @@ const NavBar = () => {
               <li>
                 <a
                   href="./aboutPage"
-                  className="flex items-center p-2 text-gray-900 rounded-lg
-                  dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                  className="flex items-center p-2 rounded-lg
+                  text-white hover:bg-gray-100 group border border-gray-400"
                 >
                   About
                 </a>
@@ -110,8 +110,8 @@ const NavBar = () => {
               <li>
                 <a
                   href="./partnerPage"
-                  className="flex items-center p-2 text-gray-900 rounded-lg
-                  dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                  className="flex items-center p-2 rounded-lg
+                  text-white hover:bg-gray-100 group border border-gray-400"
                 >
                   Partner
                 </a>
@@ -119,8 +119,8 @@ const NavBar = () => {
               <li>
                 <a
                   href="./valueChainPage"
-                  className="flex items-center p-2 text-gray-900 rounded-lg
-                  dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                  className="flex items-center p-2 rounded-lg
+                  text-white hover:bg-gray-100 group border border-gray-400"
                 >
                   Value Chain
                 </a>
@@ -128,8 +128,8 @@ const NavBar = () => {
               <li>
                 <a
                   href="./sustainabilityPage"
-                  className="flex items-center p-2 text-gray-900 rounded-lg
-                  dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                  className="flex items-center p-2 rounded-lg
+                  text-white hover:bg-gray-100 group border border-gray-400"
                 >
                   Sustainability
                 </a>
@@ -137,8 +137,8 @@ const NavBar = () => {
               <li>
                 <a
                   href="./galleryPage"
-                  className="flex items-center p-2 text-gray-900 rounded-lg
-                  dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                  className="flex items-center p-2 rounded-lg
+                  text-white hover:bg-gray-100 group border border-gray-400"
                 >
                   Gallery
                 </a>

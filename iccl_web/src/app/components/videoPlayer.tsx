@@ -9,8 +9,8 @@ const VideoPlayer = () => {
   return (
     <div>
       <ReactPlayer
-        width="500px"
-        height="400px"
+        width="100%"
+        className=" w-72 "
         url={videosrc}
         controls={true}
         // light is usefull incase of dark mode
