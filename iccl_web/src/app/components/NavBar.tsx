@@ -76,74 +76,37 @@ const NavBar = () => {
         {/* sidebar mobile menu */}
         <div
           className={clsx(
-            "absolute h-full w-screen md:hidden bg-black/50 backdrop-blur-sm top-0 right-0 -translate-x-full transition-all",
+            "absolute h-full w-screen md:hidden backdrop-blur-sm top-0 right-0 -translate-x-full transition-all",
             isMenueOpen && "translate-x-0 z-10"
           )}
         >
-          <section className=" text-white bg-[#b22222] w-56 flex-cl absolute left-0 top-0 h-screen p-8 gap-8 scrollbar-hide overflow-hidden">
+          <section className=" text-white overscroll-contain bg-[#b22222] w-full flex-cl absolute left-0 top-0 h-screen p-8 gap-8 scrollbar-hide overflow-hidden">
             <img
               onClick={() => setMenu(false)}
               src="x-btn.png"
               className=" mt-0 mb-8 h-8 w-8 cursor-pointer bg-black"
             />
 
-            <ul className="space-y-2 font-medium">
-              <li>
-                <a
-                  href="./"
-                  className="flex items-center p-2 rounded-lg
-                  text-white hover:bg-gray-100 group border border-gray-400"
-                  aria-current="page"
-                >
-                  Home
-                </a>
-              </li>
-              <li>
-                <a
-                  href="./aboutPage"
-                  className="flex items-center p-2 rounded-lg
-                  text-white hover:bg-gray-100 group border border-gray-400"
-                >
-                  About
-                </a>
-              </li>
-              <li>
-                <a
-                  href="./partnerPage"
-                  className="flex items-center p-2 rounded-lg
-                  text-white hover:bg-gray-100 group border border-gray-400"
-                >
-                  Partner
-                </a>
-              </li>
-              <li>
-                <a
-                  href="./valueChainPage"
-                  className="flex items-center p-2 rounded-lg
-                  text-white hover:bg-gray-100 group border border-gray-400"
-                >
-                  Value Chain
-                </a>
-              </li>
-              <li>
-                <a
-                  href="./sustainabilityPage"
-                  className="flex items-center p-2 rounded-lg
-                  text-white hover:bg-gray-100 group border border-gray-400"
-                >
-                  Sustainability
-                </a>
-              </li>
-              <li>
-                <a
-                  href="./galleryPage"
-                  className="flex items-center p-2 rounded-lg
-                  text-white hover:bg-gray-100 group border border-gray-400"
-                >
-                  Gallery
-                </a>
-              </li>
-            </ul>
+            <div className=" grid gap-3 place-content-center">
+              <div className=" text-center border-2 border-[#00A0C1] w-48 rounded-xl h-10 place-content-center">
+                <a href="./">Home</a>
+              </div>
+              <div className=" text-center border-2 border-[#00A0C1] w-48 rounded-xl h-10 place-content-center">
+                <a href="./aboutPage">About</a>
+              </div>
+              <div className=" text-center border-2 border-[#00A0C1] w-48 rounded-xl h-10 place-content-center">
+                <a href="./partnerPage">Partner</a>
+              </div>
+              <div className=" text-center border-2 border-[#00A0C1] w-48 rounded-xl h-10 place-content-center">
+                <a href="./valueChainPage">Value Chain</a>
+              </div>
+              <div className=" text-center border-2 border-[#00A0C1] w-48 rounded-xl h-10 place-content-center">
+                <a href="./sustainabilityPage">Sustainability</a>
+              </div>
+              <div className=" text-center border-2 border-[#00A0C1] w-48 rounded-xl h-10 place-content-center">
+                <a href="./galleryPage">Gallery</a>
+              </div>
+            </div>
           </section>
         </div>
       </div>

@@ -6,7 +6,7 @@ const page = () => {
       <h1 className=" mt-10 text-center text-xl font-bold md:text-4xl md:font-extrabold">
         Our products
       </h1>
-      <div className=" grid grid-cols-2 gap-5 md:grid-cols-4 place-items-center mx-16 md:mx-24">
+      <div className=" mt-8 grid grid-cols-1 gap-2 md:grid-cols-4 place-items-center mx-16 md:mx-24 md:gap-5">
         <div className="group flex w-full max-w-xs flex-col overflow-hidden border border-gray-100 bg-white shadow-md">
           <a className="relative flex h-60 overflow-hidden" href="#">
             <img

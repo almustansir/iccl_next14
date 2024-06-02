@@ -209,13 +209,13 @@ export default function Home() {
         </div>
       </div>
 
-      <div className=" mt-24 text-center ">
+      {/* <div className=" mt-24 text-center ">
         <PageHeaderComp
           title="Get In Touch"
           subTitle="Problems trying to resolve the conflict between the two major realms
           of Classical physics: Newtonian mechanics"
         />
-        {/* need to fix */}
+        
         <div className=" grid grid-cols-1 gap-4 w-full place-items-center mt-7 md:grid-cols-3 md:gap-0 ">
           <div className="  bg-gray-400 w-72 text-center">
             <div className=" py-6 bg-gray-100 flex flex-col items-center gap-8">
@@ -261,6 +261,61 @@ export default function Home() {
                 Submit Request
               </button>
             </div>
+          </div>
+        </div>
+      </div> */}
+
+      <div className=" mt-24 text-center ">
+        <PageHeaderComp
+          title="Get In Touch"
+          subTitle="Problems trying to resolve the conflict between the two major realms
+          of Classical physics: Newtonian mechanics"
+        />
+        <div className=" mt-12 grid grid-cols-1 gap-4 mx-3 md:grid-cols-3 md:mx-14">
+          <div className="w-sm p-6 bg-gray-100 border border-gray-200 rounded-lg shadow  ">
+            <a href="#">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+                Contact us
+              </h5>
+            </a>
+            <p className="mb-3 font-normal text-gray-700 ">(+880) 2222 80840</p>
+            <p className="mb-3 font-normal text-gray-700 ">(+880) 2222 80840</p>
+            <p className="mb-3 font-normal text-gray-700 ">(+880) 2222 80840</p>
+            <p className="mb-3 font-light text-gray-700  ">
+              *we are open from 9am-9pm
+            </p>
+          </div>
+          <div className="w-sm p-6 bg-[#252B42] border border-gray-200 rounded-lg shadow  text-white">
+            <a href="#">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight ">
+                Email Us
+              </h5>
+            </a>
+            <p className="mb-3 font-normal  ">icc@classic-match.com</p>
+            <p className="mb-3 font-normal  ">hrcompliance@icclbd.com</p>
+            <p className="mb-3 font-normal  ">Fax: 88-02-9262368</p>
+          </div>
+          <div className="w-sm p-6 bg-gray-100 border border-gray-200 rounded-lg shadow  ">
+            <a href="#">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+                Visit Us
+              </h5>
+            </a>
+            <p className="mb-3 font-normal text-gray-700 grid grid-cols-5 text-left">
+              <span className=" col-span-2">Head Office:</span>{" "}
+              <span className=" col-span-3">
+                House 73, Road 17a, Block-E Bonani, Dhaka-1213, Bangladesh
+              </span>
+            </p>
+            <p className="mb-3 font-normal text-gray-700 grid grid-cols-5 text-left">
+              <span className=" col-span-2">Factory:</span>{" "}
+              <span className=" col-span-3">
+                Naojur, Kodda, Jooydebpur, Gazipur
+              </span>
+            </p>
+            <p className="mb-3 text-xm font-light text-gray-700  ">
+              *we are open from 9am-9pm
+            </p>
           </div>
         </div>
       </div>

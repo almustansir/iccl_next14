@@ -57,7 +57,7 @@ const Footer = () => {
               <li className=" flex flex-row justify-left md:justify-center">
                 <img src="location.png" className=" w-6 h-6" />{" "}
                 <p className=" text-left">
-                  House 73, Road 17a, Block-E Bonani, Dhaka-1213, BBangladesh
+                  House 73, Road 17a, Block-E Bonani, Dhaka-1213, Bangladesh
                 </p>
               </li>
               <li className=" flex flex-row justify-left md:justify-center">
