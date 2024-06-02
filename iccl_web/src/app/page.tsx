@@ -1,3 +1,4 @@
+import InfoCardComp from "./components/InfoCardComp";
 import VideoPlayer from "./components/videoPlayer";
 
 export default function Home() {
@@ -33,7 +34,7 @@ export default function Home() {
       </div>
 
       <div className=" md:absolute z-10 flex flex-col justify-center items-center md:flex-row md:justify-center md:w-full md:gap-10 md:-mt-36">
-        <div className=" p-5 mt-14 w-80 min-h-36 shadow-[0_40px_40px_-15px_rgba(0,0,0,0.3)] bg-gray-100 md:h-44">
+        <div className=" p-5 mt-10 w-80 min-h-36 shadow-[0_40px_40px_-15px_rgba(0,0,0,0.3)] bg-gray-100 md:h-44">
           <img src="DMVector.png" className=" w-12 h-12" />
           <h3 className=" mb-2 text-xl font-bold tracking-tight text-gray-900">
             Digital Marketing
@@ -42,7 +43,7 @@ export default function Home() {
             We focus on ergonomics and meeting you where you work.
           </p>
         </div>
-        <div className=" p-5 mt-14 w-80 min-h-36 shadow-[0_40px_40px_-15px_rgba(0,0,0,0.3)] bg-gray-100 md:h-44">
+        <div className=" p-5 mt-10 w-80 min-h-36 shadow-[0_40px_40px_-15px_rgba(0,0,0,0.3)] bg-gray-100 md:h-44">
           <img src="nt50Vector.png" className=" w-12 h-10" />
           <h3 className=" mb-2 text-xl font-bold tracking-tight text-gray-900">
             National top 50 firms
@@ -51,7 +52,7 @@ export default function Home() {
             Just type what&apos;s on your mind and we'll get you there.
           </p>
         </div>
-        <div className=" p-5 mt-14 w-80 min-h-36 shadow-[0_40px_40px_-15px_rgba(0,0,0,0.3)] bg-[#BB2222] md:h-44">
+        <div className=" p-5 mt-10 w-80 min-h-36 shadow-[0_40px_40px_-15px_rgba(0,0,0,0.3)] bg-[#BB2222] md:h-44">
           <img src="DMvextor2.png" className=" w-12 h-10" />
           <h3 className=" mb-2 text-xl font-bold tracking-tight text-[#fff]">
             Digital Marketing
@@ -120,51 +121,28 @@ export default function Home() {
         </p>
 
         <div className=" mt-8 mx-12 grid grid-cols-2 gap-4 place-items-center md:grid-cols-4">
-          <div className=" max-w-[240px] p-0 bg-[#e1e1e1] flex flex-col items-center min-h-[250px] justify-between">
-            <div className=" p-6">
-              <h4 className=" font-bold text-lg text-[#252B42]">
-                A single source of truth
-              </h4>
-              <p className=" mt-6 font-medium text-sm text-[#737373]">
-                Newton thought that light was made up of particles, but then it
-                was discovered{" "}
-              </p>
-            </div>
-            <img src="singleSrc.png" className=" " />
-          </div>
-          <div className=" max-w-[240px] p-0 bg-[#e1e1e1] flex flex-col items-center min-h-[250px] justify-between">
-            <div className=" p-6">
-              <h4 className=" font-bold text-lg text-[#252B42]">
-                Fastest way to organize
-              </h4>
-              <p className=" mt-6 font-medium text-sm text-[#737373]">
-                Quantum mechanics is the description of the behaviour of matter{" "}
-              </p>
-            </div>
-            <img src="organize.png" className=" " />
-          </div>
-          <div className=" max-w-[240px] p-0 bg-[#e1e1e1] flex flex-col items-center min-h-[250px] justify-between">
-            <div className=" p-6">
-              <h4 className=" font-bold text-lg text-[#252B42]">
-                Fastest way to take action
-              </h4>
-              <p className=" mt-6 font-medium text-sm text-[#737373]">
-                They describe a universe consisting of bodies moving{" "}
-              </p>
-            </div>
-            <img src="takeAction.png" className=" " />
-          </div>
-          <div className=" max-w-[240px] p-0 bg-[#e1e1e1] flex flex-col items-center min-h-[250px] justify-between">
-            <div className=" p-6">
-              <h4 className=" font-bold text-lg text-[#252B42]">
-                Work better together
-              </h4>
-              <p className=" mt-6 font-medium text-sm text-[#737373]">
-                They finally obtained a consistent description of the behaviour{" "}
-              </p>
-            </div>
-            <img src="wrkTogenther.png" className=" " />
-          </div>
+          {/* test */}
+          <InfoCardComp
+            title="A single source of truth"
+            text=" Newton thought that light was made up of particles."
+            imgSrc="singleSrc.png"
+          />
+          <InfoCardComp
+            title="Fastest way to organize"
+            text="Quantum mechanics is the description of the behaviour of matter"
+            imgSrc="organize.png"
+          />
+          <InfoCardComp
+            title="Fastest way to take action"
+            text="They describe a universe consisting of bodies moving"
+            imgSrc="takeAction.png"
+          />
+          <InfoCardComp
+            title="Work better together"
+            text="They finally obtained a consistent description of the behaviour"
+            imgSrc="wrkTogenther.png"
+          />
+          {/* test */}
         </div>
       </div>
 
@@ -221,8 +199,8 @@ export default function Home() {
           <img src="aws.png" className="w-20 h-20" />
           <img src="reddit.png" className="w-20 h-20" />
         </div>
-        <div className=" mt-10 mx-14 bg-[#00A0C1] py-3 px-8 flex flex-col md:flex-row md:justify-between md:py-6">
-          <h1 className=" text-center font-bold text-2xl place-content-center">
+        <div className=" mt-10 mx-14 bg-[#b22222] py-3 px-8 flex flex-col md:flex-row md:justify-between md:py-6">
+          <h1 className=" text-center font-bold text-2xl place-content-center text-white">
             Subscribe For Latest Newsletter
           </h1>
           <form className=" grid grid-cols-4 mt-2 gap-2">
@@ -234,7 +212,7 @@ export default function Home() {
             <input
               type="button"
               value="Subcribe"
-              className=" bg-[#bb2222] hover:bg-white hover:text-[#BB2222] text-white font-bold py-1 px-4 rounded focus:outline-none focus:shadow-outlines"
+              className=" py-3 px-8 border-2 border-[#00A0C1]  text-white rounded-xl text-sm hover:bg-[#00A0C1] hover:text-white font-semibold"
             />
           </form>
         </div>
