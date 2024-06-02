@@ -2,7 +2,7 @@
 import React from "react";
 import ReactPlayer from "react-player";
 
-const VideoPlayer = () => {
+const videoPlayer = () => {
   //video path
   const videosrc = "https://www.youtube.com/watch?v=vDmUX_-7Kjo";
 
@@ -23,4 +23,4 @@ const VideoPlayer = () => {
   );
 };
 
-export default VideoPlayer;
+export default videoPlayer;
