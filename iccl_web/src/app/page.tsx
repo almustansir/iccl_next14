@@ -48,7 +48,7 @@ export default function Home() {
             National top 50 firms
           </h3>
           <p className=" text-sm font-normal text-gray-700 ">
-            Just type what's on your mind and we'll get you there.
+            Just type what&apos;s on your mind and we'll get you there.
           </p>
         </div>
         <div className=" p-5 mt-14 w-80 min-h-36 shadow-[0_40px_40px_-15px_rgba(0,0,0,0.3)] bg-[#BB2222] md:h-44">
@@ -138,8 +138,7 @@ export default function Home() {
                 Fastest way to organize
               </h4>
               <p className=" mt-6 font-medium text-sm text-[#737373]">
-                “Quantum mechanics” is the description of the behaviour of
-                matter{" "}
+                Quantum mechanics is the description of the behaviour of matter{" "}
               </p>
             </div>
             <img src="organize.png" className=" " />
@@ -241,7 +240,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="  mt-24 text-center ">
+      <div className=" mt-24 text-center ">
         <h2 className=" text-xl font-bold text-center md:text-4xl md:font-extrabold">
           Get In Touch
         </h2>
