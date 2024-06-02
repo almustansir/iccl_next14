@@ -9,9 +9,7 @@ const NavBar = () => {
     <nav className=" bg-white border-gray-200">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="" className="flex items-center space-x-2 rtl:space-x-reverse">
-          <span className="self-center text-2xl font-semibold whitespace-nowrap">
-            ICCL
-          </span>
+          <img src="./main_logo.jpeg" className=" h-8" />
         </a>
         <button
           type="button"

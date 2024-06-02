@@ -4,19 +4,6 @@ const Footer = () => {
   return (
     <div>
       <div className=" mb-0 my-0 mt-20 text-center">
-        <div className=" flex flex-row justify-between bg-[#fff] px-[15px]">
-          <div className=" text-left">
-            <h4 className=" text-sm font-bold text-[#252B42] md:text-xl">
-              Consulting Agency For Your Business
-            </h4>
-            <p className=" text-[#737373] font-medium text-xs md:text-base">
-              the quick fox jumps over the lazy dog
-            </p>
-          </div>
-          <button className="p-2 border-2 bg-[#B22222] border-[#B22222] text-[#fff] rounded-xl text-l md:text-xl hover:text-black hover:bg-[#fff] ">
-            Contact Us
-          </button>
-        </div>
         <div className="mt-2 bg-gradient-to-r from-purple-800 via-pink-800 to-green-800 absilue overflow-hidden bg-cover bg-center bg-no-repeat p-12 text-center text-white justify-evenly">
           <div className=" grid grid-cols-2 gap-7 md:grid-cols-4">
             <ul className=" flex flex-col gap-1 ">
