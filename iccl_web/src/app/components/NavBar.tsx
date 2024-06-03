@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import clsx from "clsx";
-import a from "next/a";
 
 const NavBar = () => {
   const [isMenueOpen, setMenu] = useState(false);
