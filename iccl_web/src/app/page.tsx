@@ -34,7 +34,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className=" md:absolute z-10 flex flex-col justify-center items-center md:flex-row md:justify-center md:w-full md:gap-10 md:-mt-36">
+      <div className=" md:absolute z-10 flex flex-col justify-center items-center md:flex-row md:justify-center md:w-full md:gap-10 md:-mt-36  lg:justify-evenly">
         <div className=" p-5 mt-10 w-80 min-h-36 shadow-[0_40px_40px_-15px_rgba(0,0,0,0.3)] bg-gray-100 md:h-44">
           <img src="DMVector.png" className=" w-12 h-12" />
           <h3 className=" mb-2 text-xl font-bold tracking-tight text-gray-900">
@@ -190,7 +190,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="mt-16 mx-16 grid grid-cols-2 gap-5 place-items-center md:grid-cols-6">
+        <div className="mt-16 mx-16 grid grid-cols-2 gap-5 place-items-center md:grid-cols-6 lg:place-items-center">
           <img src="hooli.png" className="w-20 h-20" />
           <img src="lyft.png" className="w-20 h-20" />
           <img src="piperHat.png" className="w-20 h-20" />
@@ -216,62 +216,6 @@ export default function Home() {
           </form>
         </div>
       </div>
-
-      {/* <div className=" mt-24 text-center ">
-        <PageHeaderComp
-          title="Get In Touch"
-          subTitle="Problems trying to resolve the conflict between the two major realms
-          of Classical physics: Newtonian mechanics"
-        />
-        
-        <div className=" grid grid-cols-1 gap-4 w-full place-items-center mt-7 md:grid-cols-3 md:gap-0 ">
-          <div className="  bg-gray-400 w-72 text-center">
-            <div className=" py-6 bg-gray-100 flex flex-col items-center gap-8">
-              <img src="call.png" className=" h-[80px] w-[56px]" />
-              <div>
-                <p className=" font-semibold text-md">
-                  georgia.young@example.com
-                </p>
-                <p className=" font-semibold text-md">georgia.young@ple.com</p>
-              </div>
-              <h4 className=" font-bold text-lg">Get Support</h4>
-              <button className=" p-2 border-2 border-[#B22222] text-[#B22222] rounded-xl text-lg hover:bg-[#B22222] hover:text-white">
-                Submit Request
-              </button>
-            </div>
-          </div>
-          <div className=" bg-gray-900 w-72">
-            <div className=" py-6 bg-[#252B42] flex flex-col items-center gap-8 text-white justify-center">
-              <img src="location.png" className=" h-[72px] w-[72px]" />
-              <div>
-                <p className=" font-semibold text-md">
-                  georgia.young@example.com
-                </p>
-                <p className=" font-semibold text-md">georgia.young@ple.com</p>
-              </div>
-              <h4 className=" font-bold text-lg">Get Support</h4>
-              <button className=" p-2 border-2 border-[#fff] text-[#fff] rounded-xl text-lg hover:bg-[#fff] hover:text-black">
-                Submit Request
-              </button>
-            </div>
-          </div>
-          <div className=" bg-gray-400 w-72">
-            <div className=" py-6 bg-gray-100 flex flex-col items-center gap-8">
-              <img src="msg.png" className=" h-[80px] w-[80px]" />
-              <div>
-                <p className=" font-semibold text-md">
-                  georgia.young@example.com
-                </p>
-                <p className=" font-semibold text-md">georgia.young@ple.com</p>
-              </div>
-              <h4 className=" font-bold text-lg">Get Support</h4>
-              <button className=" p-2 border-2 border-[#B22222] text-[#B22222] rounded-xl text-lg hover:bg-[#B22222] hover:text-white">
-                Submit Request
-              </button>
-            </div>
-          </div>
-        </div>
-      </div> */}
 
       <div className=" mt-24 text-center ">
         <PageHeaderComp
@@ -299,7 +243,7 @@ export default function Home() {
                 Email Us
               </h5>
             </a>
-            <p className="mb-3 font-normal  ">icc@classic-match.com</p>
+            <p className="mb-3 font-normal  ">iccl@classic-match.com</p>
             <p className="mb-3 font-normal  ">hrcompliance@icclbd.com</p>
             <p className="mb-3 font-normal  ">Fax: 88-02-9262368</p>
           </div>
