@@ -7,7 +7,7 @@ const NavBar = () => {
   const [isMenueOpen, setMenu] = useState(false);
   return (
     <nav className=" bg-white border-gray-200">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div className=" mx-1 md:mx-14 lg:mx-24 flex flex-wrap items-center justify-between p-4">
         <a href="" className="flex items-center space-x-2 rtl:space-x-reverse">
           <img src="./main_logo.jpeg" className=" h-8" />
         </a>
@@ -20,8 +20,8 @@ const NavBar = () => {
         </button>
 
         {/* desktop menu */}
-        <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-0 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
+        <div className="hidden w-full  md:block md:w-auto" id="navbar-default">
+          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-0 rtl:space-x-reverse md:mt-0 border-0 md:bg-white">
             <li className=" md:bg-white md:px-2 md:py-2 md:border md:border-white md:hover:border-gray-200">
               <a
                 href="./"

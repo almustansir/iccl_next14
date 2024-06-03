@@ -14,7 +14,7 @@ export default function Home() {
             />
           </div>
           <div className=" absolute top-16 md:top-20 bg-gray-500 bg-opacity-40 to-transparent w-full h-[420px] md:h-[520px]">
-            <div className=" mx-10">
+            <div className=" mx-10 md:mx-14 lg:mx-24">
               <h1 className="  mt-10 text-[#252B42] text-4xl font-extrabold md:text-5xl">
                 International <br /> Classic <br /> Composite Ltd.
               </h1>
@@ -71,41 +71,49 @@ export default function Home() {
           of classNameical physics: Newtonian mechanics"
         />
         <div className=" grid grid-cols-2 gap-2 text-center md:grid-cols-4 md:mx-24">
-          <div className=" max-w-[400px] py-6 bg-[#fff] flex flex-col items-center ">
+          <div className=" max-w-[400px] py-6 bg-[#fff] flex flex-col items-center justify-between">
             <img src="casesDone.png" className=" w-14 md:w-16" />
-            <h3 className=" font-bold text-xl text-[#252B42] md:text-[40px]">
-              3K
-            </h3>
-            <p className=" text-[#737373] font-bold text-xs md:text-sm">
-              CASES DONE
-            </p>
+            <div>
+              <h3 className=" font-bold text-xl text-[#252B42] md:text-[40px] mt-2">
+                3K
+              </h3>
+              <p className=" text-[#737373] font-bold text-xs md:text-sm mt-1">
+                CASES DONE
+              </p>
+            </div>
           </div>
-          <div className=" max-w-[400px] py-6 bg-[#fff] flex flex-col items-center ">
+          <div className=" max-w-[400px] py-6 bg-[#fff] flex flex-col items-center justify-between">
             <img src="hpCustomers.png" className=" w-14 md:w-16" />
-            <h3 className=" font-bold text-xl text-[#252B42] md:text-[40px]">
-              3K
-            </h3>
-            <p className=" text-[#737373] font-bold text-xs md:text-sm">
-              HAPPY CUSTOMERS
-            </p>
+            <div>
+              <h3 className=" font-bold text-xl text-[#252B42] md:text-[40px] mt-2">
+                3K
+              </h3>
+              <p className=" text-[#737373] font-bold text-xs md:text-sm mt-1">
+                HAPPY CUSTOMERS
+              </p>
+            </div>
           </div>
-          <div className=" max-w-[400px] py-6 bg-[#fff] flex flex-col items-center ">
+          <div className=" max-w-[400px] py-6 bg-[#fff] flex flex-col items-center justify-between">
             <img src="awordIcn.png" className=" w-14 md:w-16" />
-            <h3 className=" font-bold text-xl text-[#252B42] md:text-[40px]">
-              3K
-            </h3>
-            <p className=" text-[#737373] font-bold text-xs md:text-sm">
-              AWARD WINNING
-            </p>
+            <div>
+              <h3 className=" font-bold text-xl text-[#252B42] md:text-[40px] mt-2">
+                3K
+              </h3>
+              <p className=" text-[#737373] font-bold text-xs md:text-sm mt-1">
+                AWARD WINNING
+              </p>
+            </div>
           </div>
-          <div className=" max-w-[400px] py-6 bg-[#fff] flex flex-col items-center ">
+          <div className=" max-w-[400px] py-6 bg-[#fff] flex flex-col items-center justify-between">
             <img src="DMVector.png" className=" w-14 md:w-16" />
-            <h3 className=" font-bold text-xl text-[#252B42] md:text-[40px]">
-              3K
-            </h3>
-            <p className=" text-[#737373] font-bold text-xs md:text-sm">
-              CASES DONE
-            </p>
+            <div>
+              <h3 className=" font-bold text-xl text-[#252B42] md:text-[40px] mt-2">
+                3K
+              </h3>
+              <p className=" text-[#737373] font-bold text-xs md:text-sm mt-1">
+                CASES DONE
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -295,7 +303,7 @@ export default function Home() {
             <p className="mb-3 font-normal  ">hrcompliance@icclbd.com</p>
             <p className="mb-3 font-normal  ">Fax: 88-02-9262368</p>
           </div>
-          <div className="w-sm p-6 bg-gray-100 border border-gray-200 rounded-lg shadow  ">
+          <div className=" h-64 p-6 bg-gray-100 border border-gray-200 rounded-lg shadow  ">
             <a href="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
                 Visit Us

@@ -20,8 +20,10 @@ export default function RootLayout({
     <html lang="en" className={montserrat.className}>
       <body>
         <NavBar />
-        <div>{children}</div>
-        <Footer />
+        <div className=" ">
+          <div>{children}</div>
+          <Footer />
+        </div>
       </body>
     </html>
   );

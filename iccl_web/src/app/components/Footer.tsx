@@ -67,7 +67,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className=" flex flex-col justify-between py-3 md:flex-row place-items-center">
+        <div className=" flex flex-col justify-between py-3 md:flex-row place-items-center md:mx-14 lg:mx-24">
           <h5 className=" font-semibold text-sm md:text-base text-[#737373]">
             Made With Love By Biznextit All Right Reserved{" "}
           </h5>
