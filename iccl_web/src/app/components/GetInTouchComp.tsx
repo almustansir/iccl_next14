@@ -25,9 +25,6 @@ const GetInTouchComp = () => {
           <p className="mb-3 font-normal text-sm text-gray-700 ">
             (+880) 2222 80840
           </p>
-          <p className="mb-3 font-light text-xs text-gray-700  md:text-[10px]">
-            *we are open from 9am-9pm
-          </p>
         </div>
         <div className=" h-52 px-6 py-4 p-6 bg-[#252B42] border border-gray-200 rounded-lg shadow text-white grid grid-cols-1 gap-0 place-items-center md:h-60">
           <a href="#">
@@ -43,20 +40,17 @@ const GetInTouchComp = () => {
               Visit Us
             </h5>
           </a>
-          <p className="mb-3 font-normal text-gray-700 grid grid-cols-5 text-sm text-left md:text-xs">
+          <p className="mb-3 font-normal text-gray-700 grid grid-cols-5 text-sm text-left md:text-xs lg:text-sm">
             <span className=" col-span-2">Head Office:</span>{" "}
             <span className=" col-span-3">
               House 73, Road 17a, Block-E Bonani, Dhaka-1213, Bangladesh
             </span>
           </p>
-          <p className="mb-3 font-normal text-gray-700 grid grid-cols-5 text-left text-sm md:text-xs">
+          <p className="mb-3 font-normal text-gray-700 grid grid-cols-5 text-left text-sm md:text-xs lg:text-sm">
             <span className=" col-span-2">Factory:</span>{" "}
             <span className=" col-span-3">
               Naojur, Kodda, Jooydebpur, Gazipur
             </span>
-          </p>
-          <p className="mb-3 text-xm font-light text-gray-700 text-xs md:text-[10px] ">
-            *we are open from 9am-9pm
           </p>
         </div>
       </div>

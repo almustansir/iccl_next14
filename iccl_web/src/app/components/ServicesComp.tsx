@@ -73,7 +73,7 @@ const ServicesComp = () => {
           className="w-20 h-20 md:w-16 md:h-16 lg:w-28 lg:h-28"
         />
       </div>
-      <div className=" mt-10 mx-5 md:mx-14 bg-[#b22222] py-3 px-8 flex flex-col md:flex-row md:justify-between md:py-4 lg:mx-36">
+      <div className=" mt-10 mx-5 md:mx-14 bg-[#b22222] pb-4 pt-3 px-8 flex flex-col md:flex-row md:justify-between md:py-4 lg:mx-36">
         <h1 className=" text-center font-bold text-base md:text-sm place-content-center text-white">
           Subscribe For Latest Newsletter
         </h1>
