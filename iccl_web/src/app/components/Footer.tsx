@@ -34,7 +34,7 @@ const Footer = () => {
               <li>Customers</li>
               <li>API</li>
             </ul>
-            <ul className=" flex flex-col gap-4 w-full items-center">
+            <ul className=" flex flex-col gap-4 w-full items-center md:col-span-2">
               <h4 className=" font-bold">Get In Touch</h4>
               <li className=" flex flex-row justify-left md:justify-center">
                 <img src="call.png" className=" w-6" />{" "}
@@ -49,10 +49,7 @@ const Footer = () => {
                 <p className="">(+880) 2228 0826</p>
               </li>
             </ul>
-            <ul className="hidden md:block"></ul>
-            <ul className="hidden md:block"></ul>
-
-            <ul className="flex flex-col gap-1 place-items-center items-center">
+            <ul className="flex flex-col gap-1 place-items-center items-center md:col-span-2">
               <h4 className=" font-bold">Address</h4>
               <li className=" flex flex-row justify-left md:justify-center">
                 <img src="location.png" className=" w-6 h-6" />{" "}
