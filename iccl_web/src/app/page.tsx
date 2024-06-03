@@ -21,11 +21,11 @@ export default function Home() {
               <h3 className="  mt-10 text-[#B22222] text-2xl font-semibold">
                 Delivering Excellence since 1984
               </h3>
-              <div className=" mt-16 grid grid-cols-2 place-content-center md:max-w-96 md:mx-0 md:mt-10">
-                <button className=" px-3 py-2 bg-[#B22222] border-2 border-[#B22222] text-white rounded-xl mr-6 text-xs hover:bg-transparent font-semibold md:max-w-40">
+              <div className=" mt-16 grid grid-cols-2 place-content-center md:max-w-96 md:mx-0 md:mt-10 lg:max-w-[480px]">
+                <button className=" px-3 py-2 bg-[#B22222] border-2 border-[#B22222] text-white rounded-xl mr-6 text-xs hover:bg-transparent font-semibold md:max-w-40 lg:text-lg lg:max-w-80">
                   Get Quote Now
                 </button>
-                <button className=" px-3 py-1 border-2 border-[#00A0C1]  text-white rounded-xl mr-6 text-sm hover:bg-[#00A0C1] hover:text-white font-semibold md:max-w-40">
+                <button className=" px-3 py-1 border-2 border-[#00A0C1]  text-white rounded-xl mr-6 text-sm hover:bg-[#00A0C1] hover:text-white font-semibold md:max-w-40 lg:text-lg lg:max-w-80">
                   Learn More
                 </button>
               </div>
