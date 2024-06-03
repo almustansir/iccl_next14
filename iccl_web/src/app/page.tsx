@@ -14,7 +14,7 @@ export default function Home() {
             />
           </div>
           <div className=" absolute top-16 md:top-20 bg-gray-500 bg-opacity-40 to-transparent w-full h-[420px] md:h-[520px]">
-            <div className=" mx-10 md:mx-14 lg:mx-24">
+            <div className=" mx-10 md:mx-28">
               <h1 className="  mt-10 text-[#252B42] text-4xl font-extrabold md:text-5xl">
                 International <br /> Classic <br /> Composite Ltd.
               </h1>

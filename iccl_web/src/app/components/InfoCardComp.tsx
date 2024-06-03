@@ -1,10 +1,10 @@
 import React, { FunctionComponent } from "react";
 
-type Props = {
+interface Props {
   title: string;
   text: string;
   imgSrc: string;
-};
+}
 
 const InfoCardComp: FunctionComponent<Props> = ({ title, text, imgSrc }) => {
   return (

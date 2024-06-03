@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import clsx from "clsx";
+import a from "next/a";
 
 const NavBar = () => {
   const [isMenueOpen, setMenu] = useState(false);
@@ -24,7 +25,7 @@ const NavBar = () => {
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-0 rtl:space-x-reverse md:mt-0 border-0 md:bg-white">
             <li className=" md:bg-white md:px-2 md:py-2 md:border md:border-white md:hover:border-gray-200">
               <a
-                href="./"
+                href="/"
                 className="block py-1 px-1 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700"
               >
                 Home
@@ -32,7 +33,7 @@ const NavBar = () => {
             </li>
             <li className="md:bg-white md:px-2 md:py-2 md:border md:border-white md:hover:border-gray-200">
               <a
-                href="./aboutPage"
+                href="/aboutPage"
                 className="block py-1 px-1 text-white bg-blue-700 rounded md:bg-transparent md:text-gray-900"
               >
                 About
@@ -40,7 +41,7 @@ const NavBar = () => {
             </li>
             <li className="md:bg-white md:px-2 md:py-2 md:border md:border-white md:hover:border-gray-200">
               <a
-                href="./partnerPage"
+                href="/partnerPage"
                 className="block py-1 px-1 text-white bg-blue-700 rounded md:bg-transparent md:text-gray-900"
               >
                 Partner
@@ -48,7 +49,7 @@ const NavBar = () => {
             </li>
             <li className="md:bg-white md:px-2 md:py-2 md:border md:border-white md:hover:border-gray-200">
               <a
-                href="./valueChainPage"
+                href="/valueChainPage"
                 className="block py-1 px-1 text-white bg-blue-700 rounded md:bg-transparent md:text-gray-900"
               >
                 Value Chain
@@ -56,7 +57,7 @@ const NavBar = () => {
             </li>
             <li className="md:bg-white md:px-2 md:py-2 md:border md:border-white md:hover:border-gray-200">
               <a
-                href="./sustainabilityPage"
+                href="/sustainabilityPage"
                 className="block py-1 px-1 text-white bg-blue-700 rounded md:bg-transparent md:text-gray-900"
               >
                 Sustainability
@@ -64,7 +65,7 @@ const NavBar = () => {
             </li>
             <li className="md:bg-white md:px-2 md:py-2 md:border md:border-white md:hover:border-gray-200">
               <a
-                href="./galleryPage"
+                href="/galleryPage"
                 className="block py-1 px-1 text-white bg-blue-700 rounded md:bg-transparent md:text-gray-900"
               >
                 Gallery
@@ -89,22 +90,34 @@ const NavBar = () => {
 
             <div className=" grid gap-3 place-content-center">
               <div className=" text-center border-2 border-[#00A0C1] w-48 rounded-xl h-10 place-content-center">
-                <a href="./">Home</a>
+                <a href="/" onClick={() => setMenu(false)}>
+                  Home
+                </a>
               </div>
               <div className=" text-center border-2 border-[#00A0C1] w-48 rounded-xl h-10 place-content-center">
-                <a href="./aboutPage">About</a>
+                <a href="/aboutPage" onClick={() => setMenu(false)}>
+                  About
+                </a>
               </div>
               <div className=" text-center border-2 border-[#00A0C1] w-48 rounded-xl h-10 place-content-center">
-                <a href="./partnerPage">Partner</a>
+                <a href="/partnerPage" onClick={() => setMenu(false)}>
+                  Partner
+                </a>
               </div>
               <div className=" text-center border-2 border-[#00A0C1] w-48 rounded-xl h-10 place-content-center">
-                <a href="./valueChainPage">Value Chain</a>
+                <a href="/valueChainPage" onClick={() => setMenu(false)}>
+                  Value Chain
+                </a>
               </div>
               <div className=" text-center border-2 border-[#00A0C1] w-48 rounded-xl h-10 place-content-center">
-                <a href="./sustainabilityPage">Sustainability</a>
+                <a href="/sustainabilityPage" onClick={() => setMenu(false)}>
+                  Sustainability
+                </a>
               </div>
               <div className=" text-center border-2 border-[#00A0C1] w-48 rounded-xl h-10 place-content-center">
-                <a href="./galleryPage">Gallery</a>
+                <a href="/galleryPage" onClick={() => setMenu(false)}>
+                  Gallery
+                </a>
               </div>
             </div>
           </section>
