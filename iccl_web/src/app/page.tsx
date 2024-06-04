@@ -143,8 +143,8 @@ export default function Home() {
         <MDcomp />
         <ServicesComp />
         <GetInTouchComp />
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }
