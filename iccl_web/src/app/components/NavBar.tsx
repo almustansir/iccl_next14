@@ -77,7 +77,7 @@ const NavBar = () => {
         <div
           className={clsx(
             "absolute h-full w-screen md:hidden backdrop-blur-sm top-0 right-0 -translate-x-full transition-all",
-            isMenueOpen && "translate-x-0 z-10"
+            isMenueOpen && "translate-x-0 z-10 scroll-none"
           )}
         >
           <section className=" text-white overscroll-contain bg-[#b22222] w-full flex-cl absolute left-0 top-0 h-screen p-8 gap-8 scrollbar-hide overflow-hidden">
