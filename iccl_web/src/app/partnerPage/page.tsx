@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import DesktopNav from "../components/DesktopNav";
 import clsx from "clsx";
 
-const page = () => {
+const Page = () => {
   const [isMenueOpen, setMenu] = useState(false);
   return (
     <div>
@@ -97,4 +97,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

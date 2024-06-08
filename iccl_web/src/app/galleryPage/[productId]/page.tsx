@@ -5,7 +5,7 @@ import clsx from "clsx";
 import DesktopNav from "@/app/components/DesktopNav";
 import Footer from "@/app/components/Footer";
 
-const page = ({
+const Page = ({
   params,
 }: {
   params: {
@@ -101,4 +101,4 @@ const page = ({
   );
 };
 
-export default page;
+export default Page;
