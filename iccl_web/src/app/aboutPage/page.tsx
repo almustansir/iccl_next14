@@ -96,10 +96,6 @@ const Page = () => {
                 voluptate praesentium sequi, sint similique aperiam quos! Vero
                 vitae animi libero, similique cumque pariatur nisi ut ex ipsa
                 aliquam esse error ipsum repudiandae ipsam recusandae.
-                Recusandae, molestias dolorem deleniti esse labore quisquam
-                similique? Pariatur perspiciatis minus, reprehenderit est culpa
-                dolor voluptas sint temporibus labore iusto animi, perferendis,
-                consequuntur vel ex hic adipisci deserunt corporis delectus.
               </div>
             </div>
             <img
@@ -109,22 +105,24 @@ const Page = () => {
             />
           </div>
         </div>
-        <div className=" mt-7 mx-10 md:mx-16 lg:mx-20 grid grid-cols-1 md:grid-cols-2">
-          <div className=" text-sm from-neutral-700 mt-2">
+        <div className=" mt-7 mx-10 md:mx-16 lg:mx-20 flex flex-col md:flex-row md:justify-evenly">
+          <div className=" text-sm from-neutral-700 mt-2 md:w-2/5">
             <h3 className=" text font-semibold text-xl">Visit Us</h3>
-            <p>
+            <p className="mt-2 md:text-xl">
               <span className=" font-semibold">Head Office</span>: House 73,
               Road 17a, Block-E Bonani, Dhaka-1213, Bangladesh
             </p>
-            <p>
+            <p className="mt-2 md:text-xl">
               <span className=" font-semibold">Factory</span>: Naojur, Kodda,
               Jooydebpur, Gazipur
             </p>
           </div>
-          <div className=" hidden"></div>
+          <div className=" hidden md:block md:border-2 md:gap-3"></div>
           <div>
-            <h3 className=" mt-5 text font-semibold text-xl">Contact Us</h3>
-            <p className=" text-sm from-neutral-700 mt-2">
+            <h3 className=" mt-5 text font-semibold text-xl md:mt-0">
+              Contact Us
+            </h3>
+            <ul className=" text-sm from-neutral-700 mt-2 md:text-xl">
               <li className=" flex flex-row justify-left ">
                 <img src="call.png" className=" w-6" />{" "}
                 <p className="">(+880) 2222 80840</p>
@@ -137,13 +135,13 @@ const Page = () => {
                 <img src="call.png" className=" w-6" />{" "}
                 <p className="">(+880) 2228 0826</p>
               </li>
-            </p>
+            </ul>
           </div>
         </div>
         <NewsLetterComp />
         <div className="  mt-7 mx-10 md:mx-16 lg:mx-20">
           <h3 className=" font-semibold text-xl">Email us</h3>
-          <form className=" mt-3 grid grid-cols-1">
+          <form className=" mt-3 grid grid-cols-1 md:grid-cols-2 md:gap-2">
             <input
               type="text"
               placeholder="Name"
@@ -152,18 +150,14 @@ const Page = () => {
             <input
               type="text"
               placeholder="email"
-              className=" border rounded-md px-2 py-1 mt-3"
+              className=" border rounded-md px-2 py-1"
             />
             <textarea
               placeholder="Write your thoughts"
-              className=" border rounded-md px-2 py-1 mt-3"
-            />
-            <textarea
-              id="message"
               rows={4}
-              className="border rounded-md px-2 py-1 mt-3 block p-2.5 w-full text-sm text-gray-900 border-gray-300  "
-              placeholder="Write your thoughts here..."
-            ></textarea>
+              className=" border rounded-md px-2 py-1 mt-3 md:col-span-2"
+            />
+
             <input
               type="button"
               value="Submit"
