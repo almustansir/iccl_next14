@@ -25,14 +25,14 @@ const Page = ({
             href="/"
             className="flex items-center space-x-2 rtl:space-x-reverse"
           >
-            <img src="@app/main_logo.jpeg" className=" h-8" />
+            <img src="../main_logo.jpeg" className=" h-8" />
           </a>
           <button
             type="button"
             className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 00 ay-700 gray-600"
             onClick={() => setMenu(true)}
           >
-            <img src="moboaNav.png" alt="" />
+            <img src="../moboaNav.png" alt="" />
           </button>
 
           {/* desktop menu */}
@@ -48,7 +48,7 @@ const Page = ({
             <section className=" text-white overscroll-contain bg-[#b22222] w-full flex-cl absolute left-0 top-0 h-screen p-8 gap-8 scrollbar-hide overflow-hidden">
               <img
                 onClick={() => setMenu(false)}
-                src="x-btn.png"
+                src="../x-btn.png"
                 className=" mt-0 mb-8 h-8 w-8 cursor-pointer bg-black"
               />
 
